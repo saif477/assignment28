@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.p-bg{
+    background-color:#f7f9ff;
+}
+
+/*  Begain main css  */
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-section {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 6px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
+.header-section a{
+    color: #010101;
+}
+.header-logo{
+    width: 50%;
+}
+
+.logo span {
+	display: inline-block;
+	margin-top: 14px;
+	font-size: 26px;
+	font-weight: 510;
+}
+.header-menu {
+    width: 50%;
+}
+
+
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 60px;
+    float: right;
+}
+
+
+.p-3 {
+	padding: 8px !important;
+}
+
+.saif {
+	margin-top: 150px;
+	background: black;
+	height: 100px;
+	color: white;
+	text-align: center;
+}
+
+.saif-ok {
+	margin-top: 50px;
+	background: black;
+	height: 100px;
+	color: white;
+	text-align: center;
+}
+.saif-hfe4{
+	margin-top: 80px;
+	background: black;
+	height: 100px;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.col-4 {
+	flex: 0 0 auto;
+	width: 33.3333333333%;
+	margin-top: 25px;
+}
+
+.t-img img {
+	margin-top: 50px;
+	height: 440px;
+}
+.img-thumbnail {
+	padding: 1.25rem;
+	background-color: #fff;
+	border: 2px solid #ced3d7;
+	border-radius: .25rem;
+	max-width: 100%;
+	height: auto;
+}
+
+.t-text{
+    margin-top: 50px;
+}
+.t-text h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footerbd {
+	height: 100px;
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+    
+}
+.saifur h1 {
+	font-size: 20px;
+	padding: 35px;
+}
